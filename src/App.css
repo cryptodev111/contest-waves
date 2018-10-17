@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+}
+.game {
+  background: rgba(255,255,255, .5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  color: #FFF;
+}
+
+.game__container {
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.game__col {
+  
+}
+
+.game__statuslink {
+  text-overflow: ellipsis;
+  width: 260px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  color: #2156f5;
+}
+
+.player {
+  width: 100%;
+}
+
+.player__move {
+  display: block;
+}
+
+.player__link {
+  font-size: 14px;
+  display: block;
+  text-overflow: ellipsis;
+  width: 260px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #2156f5;
+}
